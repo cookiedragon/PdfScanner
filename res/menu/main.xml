@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:whatever="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newImage"
+        android:icon="@drawable/ic_action_new_picture"
+        android:title="@string/newImage"
+        whatever:showAsAction="ifRoom"  />
+    <item
+        android:id="@+id/createPdf"
+        android:icon="@drawable/ic_action_save"
+        android:title="@string/createPdf"
+        whatever:showAsAction="ifRoom"  />
+
+</menu>
